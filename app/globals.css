@@ -15,5 +15,10 @@
 
 body {
   color: #000000;
-  padding: 1rem;
+}
+
+@layer base {
+  h1 {
+    @apply font-bold text-2xl mb-3;
+  }
 }
